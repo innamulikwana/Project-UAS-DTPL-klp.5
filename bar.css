@@ -1,0 +1,299 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    
+    .wrapper {
+        width: 1250px;
+        margin: auto;
+        position: relative;
+    }
+
+.menu {
+    
+        margin: auto;
+        display: flex;
+        line-height: 40px;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        background: #FFFFFF;
+        z-index: 1;
+        border-bottom: 1px solid #364f6b;
+}
+
+        .logo a{
+            font-size: 50px;
+            font-weight: 500;
+            float: center;
+            font-family: courier ;
+            color:black;
+        }
+        
+        
+            
+
+.menu ul{
+    margin:0px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float:right;
+}
+.menu ul li  {
+list-style: none;
+display: inline-block;
+
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color:black;
+}
+.menu ul li a:hover {
+    display: block;
+    color:cadetblue;
+   
+  
+
+}
+.menu ul li .dropdown {
+    display: none;
+
+}
+.menu ul li:hover .dropdown{
+    display: block;
+    background: rgb(226, 225, 221);
+    position: absolute;
+    padding: 10px;
+}
+
+
+.menu ul li:hover .dropdown li{
+display: block;
+}
+.menu ul li:hover .dropdown li a:hover{
+
+box-shadow: inset 0px 0px 5px cadetblue;
+}
+
+section{
+    margin:auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.kolom{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.kolom .deskripsi{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+h2 {
+    font-family:'comic sans ms' ;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 90px;
+}
+
+
+.tbl-biru {
+    background: #6e91bb;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight:bold;
+    }
+
+
+.tbl-biru:hover{
+background: #fc5185;
+text-decoration: none;
+}
+
+.tbl-pink{
+background: #fc5185;
+border-radius: 20px;
+margin-top: 20px;
+padding: 15px 20px 15px 20px;
+color: #FFFFFF;
+cursor: pointer;
+font-weight:bold;
+}
+
+.tbl-pink:hover{
+background: #3f72af;
+text-decoration: none;
+}
+p{
+margin: 10px 0px 10px 0px;
+padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+text-align: center;
+width: 100%;
+}
+
+.makanan-list{
+width: 100%;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+
+}
+.kartu-makanan{
+width: 20%;
+margin: 0 auto;
+
+}
+.kartu-makanan img{
+width: 50%;
+border-radius: 50%;
+
+
+}
+.kartu-makanan p{
+font-family: 'comic sans ms';
+font-weight: 800;
+font-size: 25px;
+text-align: center;
+color: #364f6b;
+}
+
+.minuman-list{
+width: 100%;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+
+}
+.kartu-minuman{
+width: 20%;
+margin: 0 auto;
+
+}
+
+.kartu-minuman img{
+width: 50%;
+border-radius: 50%;
+}
+
+#contact{
+ background: #dedede;
+ padding: 50px 0px 50px 0px;
+}
+.footer{
+
+width: 100%;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+}
+
+.footer-section{
+ width: 20%;
+ margin: 0 auto;
+
+}
+
+h3{
+ font-family: 'comic sans ms';
+ font-weight: 800;
+ font-size: 25px;
+ margin-bottom: 25px;
+ color: #364f6b;
+ width: 100%;
+ line-height: 50px;
+}
+
+#copyright{
+ text-align: center;
+ width:  100%;
+ padding: 50px 0px 50px 0px;
+ margin-top: 50px;
+}
+
+.label{
+ font-family: "Raleway", sans-serif;
+ font-size: 10pt;
+
+}
+#forgot-pass{
+ color:#fc5185;
+ font-family: "Raleway",sans-serif;
+ font-size: 10pt;
+ margin-top: 4px;
+ text-align: right;
+}
+
+
+
+#submit-btn{
+
+background: -webkit-linear-gradient(bottom,#3498db,#9b59b6);
+border-radius: 21px;
+border:none;
+box-shadow: 0px 1px 8px #24c64f;
+cursor: pointer;
+color: white;
+font-family: "Raleway Bold", sans-serif;
+height: 42.3px;
+margin: o auto;
+margin-top: 50px;
+transition: 0.25%;
+width: 153px;
+
+
+}
+#submit-btn:hover{
+box-shadow: 0px 1px 18px #FFFFFF;
+}
+
+.form{
+align-items: left;
+display: flex;
+flex-direction:column ;
+}
+.form-border{
+height: 1px;
+width: 100%;
+background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+
+}
+.form-content{
+background: #fbfbfb;
+border:none;
+outline: none;
+padding-top: 14px;
+}
+.underline-title{
+ background: -webkit-linear-gradient(right,#3498db,#9b59b6);
+ height: 2px;
+ margin: -1.1rem auto 0 auto;
+ width: 89px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
