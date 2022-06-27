@@ -41,7 +41,7 @@
              
               <h2>Pondok Bakso Mas Brian</h2>
               <p>Pndok bakso mas brian berdiri pada tahun 1550 pada awalnya Pondok bakso mas brian ini hanya memiliki satu kedai </p>
-                  <p>tetapi dengan pesatnya perkembangan zaman maka kami sekarang memilki banyak cabang</p>
+                  <p> dengan pesatnya perkembangan zaman maka kami sekarang memilki banyak cabang</p>
                   <p><a href="https://www.cnnindonesia.com/gaya-hidup/20160506024728-262-128930/menguak-asal-usul-mi-ayam" class="tbl-biru">pelajari lebih lanjut</a></p>
 
           
